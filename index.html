@@ -4,77 +4,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href="styles.css">
-    <title>ABC - Lindi Harding</title>
+    <title>Lindi Harding - Analytics < Bikes < Coding</title>
+    <meta property="og:image" content="images/kidsonbeach.JPG">
 
 </head>
 <body>
     <header>
-        <img id="logo" src="images/ABC-logo.png" >  <!-- Logo -->
+        <a href="/index.html" ><img id = logo src="images/ABC-logo.png" > </a>  <!-- Logo -->
         <nav id="navigation"> <!-- Navigation -->
-            <a class="menu" href="">About</a>
-            <a class="menu" href="">Coding Projects</a>
-            <a class="menu" href="">Bike Blog</a>           
-            <a class="menu" href="">Contact</a>
-            
+            <a class="menu" href="#bio"><h5>About</h5></a>
+            <a class="menu" href="#blog"><h5>Bike Blog</h5></a>           
+            <a class="menu" href="#projects"><h5>Coding Projects</h5></a>
+            <a class="menu" href="/contact.html"><h5>Contact</h5></a> 
         </nav> 
     </header>
     <main>
         <section id="hero">
-            <img src="images/kidsonbeach.JPG" > 
+            <img src="images/kidsonbeach.JPG" alt="Two children jumping on a beach with very white sand, turquoise water and blue sky"> 
             <div id="hero-text">
                 <h1>Analytics < Bikes < Coding</h1>
-                <h2 id="hero-h2">Meet Lindi..<br>Data Analyst, Bike Enthusiast and Keen Coder</h2>
+                <h2 id="hero-h2">Meet Lindi...</h2>
+                <h2>Data Analyst, Bike Enthusiast and Keen Coder</h2>
+                <a id="contact-link" href="/contact.html">
+                    <h3>get in touch</h3>
+                </a>
+                
             </div>  
         </section>
-        
         <section id="bio">
-            <a class="abc">
-                <h3>Analytics</h3>
-                <h4>I am an experienced Data Analyst with a passion for problem solving. I have always been fascinated by data and how I can use it to tell a story and provide a better understanding of complex problems to help make big decisions. I love the challenge of sifting through vast amounts of information to uncover hidden patterns and insights. </h4>
-            </a>
-            <a class="abc">
-                <h3>Bikes</h3>
-                <h4>I’m also passionate about bike riding. Whether it's for fun, for sport, for a healthier mind, body and planet, or for a deeper connection to surroundings and community, each pedal stroke brings me joy. Knowing the benefits of cycling, I'm a strong advocate for encouraging others to embrace cycling as a regular and rewarding activity.</h4>
-            </a>
-            <a class="abc">
-                <h3>Coding</h3>
-                <h4>I’m always looking for ways to improve my skills and stay on the cutting edge of technology. That's why I’ve started the She Codes Plus program to learn HTML/CSS, Javascript, Python, React, WordPress and Django. This is website serves as my portfolio of projects to showcase my new skills to the world.</h4>
-            </a>
-            <a href="">Learn More</a>
+            <div id="abc-box">
+                <a class="abc">
+                    <h3>Analytics</h3>
+                    <p>I am an experienced Data Analyst with a passion for problem solving. I have always been fascinated by data and how I can use it to tell a story and provide a better understanding of complex problems to help make big decisions. I love the challenge of sifting through vast amounts of information to uncover hidden patterns and insights. </p>
+                </a>
+                <a class="abc">
+                    <h3>Bikes</h3>
+                    <p>I’m also passionate about bike riding. Whether it's for fun, for sport, for a healthier mind, body and planet, or for a deeper connection to surroundings and community, each pedal stroke brings me joy. Knowing the benefits of cycling, I'm a strong advocate for encouraging others to embrace cycling as a regular and rewarding activity.</p>
+                </a>
+                <a class="abc">
+                    <h3>Coding</h3>
+                    <p>I’m always looking for ways to improve my skills and stay on the cutting edge of technology. I'm delighted to have been awarded a scholarship from Pawsey Supercomputing Research Centre to undertake the She Codes Plus program to learn HTML/CSS, Javascript, Python, React, WordPress and Django. This is website serves as my portfolio of projects to showcase my new skills to the world.</p>
+                </a>
+            </div>
         </section>
         <section id="projects">
-            <a class = "project">
-                <h3>HTML/CSS</h3>
-                <img  src="images/portfolio-image.png" > 
-            </a>
-            <a class = "project">
-                <h3>Javascript</h3>
-                <img  src="images/portfolio-image.png" > 
-            </a>
-            <a class = "project" >
-                <h3>Python</h3>
-                <img src="images/portfolio-image.png" > 
-            </a>
-            <a class = "project" >
-                <h3>React</h3>
-                <img src="images/portfolio-image.png" > 
-            </a>
-            <a class = "project">
-                <h3>Wordpress</h3>
-                <img src="images/portfolio-image.png" > 
-            </a>
-
+            <div class = "section-text">
+                <h2>Projects</h2>
+                <p>As I work through the She Codes Plus course, I will add projects to my portfolio</p>
+            </div>
+            <div id="projects-box"> 
+                <a class = "project" href="https://lyndallh.github.io.">
+                    <h3>HTML/CSS</h3>
+                    <img  src="images/CSS3_and_HTML5_logos.png" alt = "HTML and CSS brand logos - opens in a new tab">
+                    <p>Opens in a new tab</p> 
+                </a>
+                <a class = "project">
+                    <h3>Javascript</h3>
+                    <img  src="images/javascript-logo.png" alt = "Javascript brand logo" >
+                    <p>Placeholder</p>  
+                </a>
+                <a class = "project" >
+                    <h3>Python</h3>
+                    <img src="images/python-logo.png" alt = "Python brand logo" > 
+                    <p>Placeholder</p>  
+                </a>
+                <a class = "project" >
+                    <h3>React</h3>
+                    <img src="images/react-logo.png" alt = "React brand logo"> 
+                    <p>Placeholder</p>  
+                </a>
+                <a class = "project">
+                    <h3>Wordpress</h3>
+                    <img src="images/WordPress-logo.png" alt = "Wordpress brand logo" >
+                    <p>Placeholder</p>   
+                </a>
+            </div>
         </section>
         <section id="blog">
-
+            <div class = "section-text">
+                <h2>Bike Blog</h2>
+                <p>I am an active contributer to the Department of Transport's Your Move program, encouraging people in my community to leave the car at home and walk, ride or catch the bus instead. These are a few of my favourite posts.</p>
+            </div>
+            <div id="blog-box">
+                <a class="blog-post" href="https://www.yourmove.org.au/st-augustines-school/treasure-island-on-kuljak-in-ascot/" target="_blank"> 
+                    <h3>Treasure Island on Kuljak in Ascot</h3>
+                    <img src="images/ym-kuljak.png" alt="A large group of people standing together in a feild with their bicycles - opens in a new tab">
+                    <p>Opens in a new tab</p> 
+                </a>
+                <a class="blog-post" href="https://www.yourmove.org.au/bethesda-health-care/bethesda-scoops-yourmove-workplace-awards/" target="_blank"> 
+                    <h3>Bethesda scoops Workplace awards!</h3>
+                    <img src="images/ym-award.png" alt=" =Four people standing together in parkland, two of the people are holding award certificates - opens in a new tab">
+                    <p>Opens in a new tab</p> 
+                </a>
+                <a class="blog-post" href="https://www.yourmove.org.au/st-augustines-school/stacc-x-stanc-weekly-bike-games/" target="_blank"> 
+                    <h3>STANC x STACC = Weekly Bike Games</h3 alt="Three children riding their bikes in a circle on a netball court - opens in a new tab">
+                    <img src="images/ym-stacc.png">
+                    <p>Opens in a new tab</p> 
+                </a>
+                <a class="blog-post" href="https://www.yourmove.org.au/st-augustines-school/appreciation-for-our-local-council/" target="_blank"> 
+                    <h3>Appreciation for our local council</h3>
+                    <img src="images/ym-cob.png" alt="Three adults and two children posing beside a sign recognising Your Move status levels - opens in a new tab">
+                    <p>Opens in a new tab</p> 
+                </a>
+                <a class="blog-post" href="https://www.yourmove.org.au/st-augustines-school/walk-to-school-day-2023/" target="_blank"> 
+                    <h3>Walk to School Day 2023</h3>
+                    <img src="images/ym-W2SD.png" alt="A collection of brightly coloured sponges and rolls of stickers - opens in a new tab">
+                    <p>Opens in a new tab</p> 
+                </a>
+                <a class="blog-post" href="https://www.yourmove.org.au/st-augustines-school/2023-wa-mtb-school-series-achievements/" target="_blank"> 
+                    <h3>2023 WA MTB School Series Achievements</h3>
+                    <img src="images/ym-mtbseries.png" img="A child riding a mountain bike over a rocky area, a group of spectators are sitting on a nearby boulder - opens in a new tab">
+                    <p>Opens in a new tab</p>            
+                </a>
         </section>
-        <section id="contact">
+    </main>
+    <footer>
+        <div id="socials-box">
+            <a class="socials" href="https://github.com/Lyndallh/Lyndallh.github.io" target="_blank"> 
 
-        </section>
-        <!-- Headshot image -->
-        <!-- H1 Hi I'm Lindi -->
-        <!-- Short Bio -->
-        <!-- Call to Action -->
-        <!--  -->
+                <img src="images/github.png" alt="Github logo - opens in a new tab">
+
+            </a>
+            <a class="socials" href="https://www.linkedin.com/in/lindi-harding-5280b445/" target="_blank"> 
+
+                <img src="images/linkedin.png" alt="Linkedin logo - opens in a new tab">
+
+            </a>
+        </div>
+        <p>Copyright - Lindi Harding 2023</p>
+    </footer>
+</body>
 
 
